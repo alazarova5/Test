@@ -1,4 +1,5 @@
 ﻿using System;
+using Test.Controllers;
 
 namespace Test
 {
@@ -6,7 +7,7 @@ namespace Test
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            DestinationController destinationController = new DestinationController();
         }
     }
 }
